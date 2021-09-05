@@ -29,16 +29,23 @@
 }
 .detail {
     display: flex;
-    margin: 4.5rem;
+    padding: 4.5rem;
     background-color: var(--color-grey-light-1);
     border-bottom: var(--border-bottom);
 
     .description {
-        background-color: orange;
+        font-size: 1.4rem;
+        background-color: var(--color-white);
+        box-shadow: 0 2rem 5rem rgba(0,0,0, .06);
+        padding: 3rem;
         flex-grow: 0;
         flex-shrink: 0;
         flex-basis: 60%;
         margin-right: 4.5rem;
+
+        .paragraph {
+
+        }
     }
     .user-reviews {
         background-color: orangered;
