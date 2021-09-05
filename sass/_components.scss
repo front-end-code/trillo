@@ -305,5 +305,12 @@
     }
 }
 .recommend {
+    font-size: 1.3rem;
+    color: var(--color-grey-light-3);
 
+    &__photos {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+    }
 }
