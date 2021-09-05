@@ -8,7 +8,7 @@
     font-size: 1.4rem;
     height: 7rem;
     background-color: var(--color-white);
-    border-bottom: var(--border-bottom);
+    border-bottom: var(--line);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +31,7 @@
     display: flex;
     padding: 4.5rem;
     background-color: var(--color-grey-light-1);
-    border-bottom: var(--border-bottom);
+    border-bottom: var(--line);
 
     .description {
         font-size: 1.4rem;
@@ -42,10 +42,6 @@
         flex-shrink: 0;
         flex-basis: 60%;
         margin-right: 4.5rem;
-
-        .paragraph {
-
-        }
     }
     .user-reviews {
         background-color: orangered;
