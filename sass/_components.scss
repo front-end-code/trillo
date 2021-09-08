@@ -238,11 +238,19 @@
     font-size: inherit;
     color: var(--color-primary);
     border-bottom: 1px solid currentColor;
-    transition: color .2s;
     cursor: pointer;
     display: inline-block;
     padding-bottom: 2px;
     background-color: transparent;
+    transition: color .2s;
+
+    & span {
+        margin-left: .3rem;
+        transition: margin-left .2s;
+    }
+    &:hover span {
+        margin-left: .8rem;
+    }
 
     &:hover {
         color: var(--color-grey-dark-1);

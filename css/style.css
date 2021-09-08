@@ -211,11 +211,16 @@ body {
   font-size: inherit;
   color: var(--color-primary);
   border-bottom: 1px solid currentColor;
-  transition: color .2s;
   cursor: pointer;
   display: inline-block;
   padding-bottom: 2px;
-  background-color: transparent; }
+  background-color: transparent;
+  transition: color .2s; }
+  .btn-inline span {
+    margin-left: .3rem;
+    transition: margin-left .2s; }
+  .btn-inline:hover span {
+    margin-left: .8rem; }
   .btn-inline:hover {
     color: var(--color-grey-dark-1);
     animation: pulsate 1s infinite; }
@@ -362,4 +367,7 @@ body {
     flex-basis: 60%;
     margin-right: 4.5rem; }
   .detail .user-reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     flex: 1; }
